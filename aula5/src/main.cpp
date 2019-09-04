@@ -1,8 +1,7 @@
 #include <iostream>
-
 #include "caminhao.hpp"
-
 using namespace std;
+
 int main(){
     Carro meu_carro;
     Carro *carro2; 
