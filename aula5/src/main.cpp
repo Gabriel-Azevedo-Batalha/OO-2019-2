@@ -12,7 +12,7 @@ int main(){
     carro2 = new Carro();
     carro2->setCapacidade(10);
     meu_carro.setCapacidade(5);
-    cout << "Capacidade do carro " << meu_carro.capacidade<< endl;
+    cout << "Capacidade do carro " << meu_carro.getCapacidade()<< endl;
     cout << "Capacidade do carro2 " << carro2->getCapacidade()<< endl;
     cout << "Capacidade do caminhao " << meu_caminhao->getCapacidade()<< endl;
     delete carro2;

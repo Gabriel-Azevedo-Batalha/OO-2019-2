@@ -20,6 +20,6 @@ Caminhao::Caminhao(float _velocidadeMaxima, string marca)//:Carro(_velocidadeMax
     altura = 0.0;
  //   setVelocidadeMaxima(_velocidadeMaxima);
     cout << "Construtor do caminhao" << endl;
-    cout << "Caminhão " << marca;
+    cout << "Caminhão: " << marca << endl;
 
 }

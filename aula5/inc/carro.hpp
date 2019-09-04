@@ -7,7 +7,7 @@ class Carro{
         string marca;
         int ano;
         string modelo;
-        
+        int capacidade;
         string cor;
         float preco;
         float velocidadeMax;
@@ -18,10 +18,20 @@ class Carro{
         ~Carro();
         void aceleraCarro(float fatorAcelacao);
         void desaceleraCarro(float fatorAcelecao);
-        void setCapacidade(int qtePessoas);
-        int capacidade;
+        string getMarca();
+        void setMarca(string _marca);
+        int getAno();
+        void setAno (int _ano);
+        string getModelo();
+        void setModelo(string _modelo);
         int getCapacidade();
-        void setVelocidadeAtual(float velocidade);
+        void setCapacidade(int qtePessoas);
+        string getCor();
+        void setCor(string _cor);
+        float getPreco();
+        void setPreco(float _preco);
+        float getVelocidadeMax();
         void setVelocidadeMaxima(float velocidade);
-
+        float getVelocidadeAtual();
+        void setVelocidadeAtual(float velocidade);
 };
